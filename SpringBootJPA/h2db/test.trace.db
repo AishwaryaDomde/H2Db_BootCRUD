@@ -1,0 +1,30 @@
+2019-12-06 14:54:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE  *[*] ALIEN"; expected "identifier"; SQL statement:
+delete  * ALIEN [42001-200]
+2019-12-06 14:54:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE  TABLE[*]  ALIEN"; expected "identifier"; SQL statement:
+delete  table  ALIEN [42001-200]
+2019-12-06 14:54:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE  TABLE[*]  ALIEN"; expected "identifier"; SQL statement:
+delete  table  ALIEN [42001-200]
+2019-12-06 14:54:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE  TABLE[*]  ALIEN"; expected "identifier"; SQL statement:
+delete  table  ALIEN [42001-200]
+2019-12-06 14:54:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ALIEN" not found; SQL statement:
+drop table alien [42102-200]
+2019-12-06 14:54:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ALIEN" not found; SQL statement:
+drop table alien [42102-200]
+2019-12-06 14:54:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ALIEN" not found; SQL statement:
+drop table alien [42102-200]
+2019-12-06 14:54:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ALIEN" not found; SQL statement:
+drop table alien [42102-200]
+2019-12-06 15:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ALIEN(101[*],'Navin')"; expected "identifier"; SQL statement:
+insert into alien(101,'Navin') [42001-200]
+2019-12-06 15:13:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ALIEN(101[*],'Navin')"; expected "identifier"; SQL statement:
+insert into alien(101,'Navin') [42001-200]
